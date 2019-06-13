@@ -42,20 +42,19 @@ const quotes = [
 	"So we carried all our groceries in while hauling out the trash. If this doesn't make us motionless I do not know what can.",
 	"Always asking a question and I don't want to know.",
 	"Open up a window, all the air all the air is falling out.",
-	"Push push push push pull us up!",
-	""
+	"Push push push push pull us up!"
 ]
 
 
-function get_issac_quote(){
+function get_isaac_quote(){
 	return quotes[Math.floor(Math.random() * quotes.length)];
 }
-function is_about_issac(text){
-	return text.includes('Issac Brock');
+function is_about_isaac(text){
+	return text.includes('Isaac Brock');
 }
 
 
 module.exports = {
-	get_issac_quote,
-	is_about_issac
+	get_isaac_quote,
+	is_about_isaac
 }
