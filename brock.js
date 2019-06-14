@@ -1,6 +1,6 @@
 require('dotenv').config();
 const Snoowrap = require('snoowrap');
-const { get_issac_quote, is_about_issac } = require('./mm_quotes.js');
+const { get_isaac_quote, is_about_isaac } = require('./mm_quotes.js');
 const { CommentStream } = require("snoostorm");
 
 const client = new Snoowrap({
